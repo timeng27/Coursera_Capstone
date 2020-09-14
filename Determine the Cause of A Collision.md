@@ -50,9 +50,8 @@ Split the datasets into train data and test data.
 Use the training set to build several classing model,including "K Nearest Neighbor", "Decision Tree", "Support Vector Machine" and "Logistic Regression". Then use the test set to report the accuracy of the model.
 
 ## Results 
-
-
-
+The following report the accuracy of the built models using different evaluation metrics, including Jaccard, F1-score and confusion matrix
+.The models's accuracy are less than 80%.
 ## Evaluation
 In this study, I try to predict whether a collision is caused by human factors. But honestly, all of the results from the built models are not better than guessing directly. It may be due to the following reasons.
 1. The features selected are not correct.
