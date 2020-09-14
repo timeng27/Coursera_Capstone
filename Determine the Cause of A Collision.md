@@ -50,8 +50,22 @@ Split the datasets into train data and test data.
 Use the training set to build several classing model,including "K Nearest Neighbor", "Decision Tree", "Support Vector Machine" and "Logistic Regression". Then use the test set to report the accuracy of the model.
 
 ## Results 
-The following report the accuracy of the built models using different evaluation metrics, including Jaccard, F1-score and confusion matrix
-.The models's accuracy are less than 80%.
+The following shows the accuracy of the built models using different evaluation metrics, including Jaccard, F1-score and confusion matrix. 
+The accuracy of models is near 75%. However, accidents due to objective reasons also reach 74.22%. That means the results are not better than guessing.
+
+|Algorithm|Jaccard |F1-score|
+|  :----:  | :----:  | :----:  |
+| KNN    | 0.725  | 0.208  |
+| SVM    | 0.746  | 0.106  |
+| Decision Tree |  0.748 | 0.182  |
+| LogisticRegression   | 0.745  | 0.016  |
+
+![alt "KNN"](https://github.com/timeng27/Coursera_Capstone/blob/master/KNN.png?raw=true)
+![alt "sVM"](https://github.com/timeng27/Coursera_Capstone/blob/master/SVM.png?raw=true)
+![alt "DT"](https://github.com/timeng27/Coursera_Capstone/blob/master/DTree.png?raw=true)
+![alt "LR"](https://github.com/timeng27/Coursera_Capstone/blob/master/LR.png?raw=true)
+
+
 ## Evaluation
 In this study, I try to predict whether a collision is caused by human factors. But honestly, all of the results from the built models are not better than guessing directly. It may be due to the following reasons.
 1. The features selected are not correct.
